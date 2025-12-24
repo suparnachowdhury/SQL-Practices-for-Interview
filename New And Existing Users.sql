@@ -1,4 +1,9 @@
-use datalemurdb;
+-- Write a SQL query to calculate the monthly proportion of new versus existing users. 
+-- A user is considered 'new' in the month of their first activity and 'existing' in 
+-- all subsequent months. The output should show each month along with the percentage 
+-- of new users and the percentage of existing users, ordered by month
+
+
 CREATE TABLE user_events (
     id INT PRIMARY KEY,
     time_id DATETIME,
